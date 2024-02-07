@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.8rem;
+}
+
+
+/* container */
+
+
+.container {
+    background-color: #c9c9b6;
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mini-box {
+    background-color: #848475;
+    width: 50%;
+    height: 1100px;
+    position: relative;
+    top: 60px;
+    right: 90px;
+}
+
+.con-img {
+    position: absolute;
+    width: 70%;
+    height: 600px;
+    background-image: url(./pictures/background-img.jpg);
+    background-size: cover;
+    left: 180px;
+    top: 200px;
+}
+
+
+
+/* box-sttyleing */
+
+.box-text{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 80%;
+    position: absolute;
+    height: 550px;
+    /* background-color: aqua; */
+    align-self: end;
+    bottom: -570px;
+    left: 30px;
+    justify-content: space-evenly;
+}
+
+
+.box1{
+    display: flex;
+    width: 26%;
+    height: 400px;
+    background-color: #fff;
+    /* left: 80px; */
+    color: #848475;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-left: 10px;
+}
+
+.box1 h2 {
+    position: relative;
+    top: 60px;
+    font-size: 1.6rem;
+}
+
+.box1 p {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    /* padding-left: 10px; */
+}
+
+.box1 a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #848475;
+    position: relative;
+    /* right: 75px; */
+}
+
+.box2{
+    display: flex;
+    width: 26%;
+    height: 400px;
+    background-color: #fff;
+    /* left: 80px; */
+    color: #848475;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-left: 10px  
+}
+
+.box2 h2 {
+    position: relative;
+    top: 60px;
+    font-size: 1.6rem;
+}
+
+
+.box2 p {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    /* padding-left: 10px; */
+}
+
+
+.box2 a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #848475;
+    position: relative;
+    /* right: 75px; */
+}
+
+
+
+
+.box3{
+    display: flex;
+    width: 26%;
+    height: 400px;
+    background-color: #fff;
+    /* left: 80px; */
+    color: #848475;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-left: 10px  
+}
+
+
+
+.box3 h2 {
+    position: relative;
+    top: 60px;
+    font-size: 1.6rem;
+}
+
+
+.box3 p {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    /* padding-left: 10px; */
+}
+
+
+.box3 a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #848475;
+    position: relative;
+    /* right: 75px; */
+}
+
+
+
+
+/* responsive */
+
+
+@media screen and (max-width: 991px) {
+    
+    .box1{
+        width: 40%;
+    }
+    
+    .box2{
+        width: 40%;
+    }
+    .box3{
+        /* display: block; */
+        width: 40%;
+        
+        
+    }
+
+
+    .box-text{
+        height: 1000px;
+        justify-content: space-evenly;
+        top: 620px;
+        align-items: end;
+        flex-wrap: wrap;
+        /* display: block; */
+        
+    }
+
+    .mini-box{
+        height: 1600px;
+    }
+
+    .container{
+        height: 2000px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .box1{
+        width: 60%;
+    }
+    
+    .box2{
+        width: 60%;
+    }
+    .box3{
+        /* display: block; */
+        width: 60%;
+        
+        
+    }
+
+    .box-text{
+        height: 1300px;
+        justify-content: space-evenly;
+        top: 620px;
+        flex-direction: column;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* display: block; */
+        
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .box1{
+        width: 45%;
+    }
+    .box1 p {
+        line-height: normal;
+    }
+    
+    .box2{
+        width: 45%;
+    }
+    .box2 p {
+        line-height: normal;
+    }
+    .box3{
+        /* display: block; */
+        width: 45%;   
+    }
+
+    .box3 p {
+        line-height: normal;
+    }
+
+    .box-text{
+        height: 1300px;
+        justify-content: space-evenly;
+        top: 620px;
+        flex-direction: column;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* display: block; */
+        
+    }
+}
