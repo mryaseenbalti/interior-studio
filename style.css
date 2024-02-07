@@ -194,6 +194,11 @@
 
 
 @media screen and (max-width: 991px) {
+
+    .con-img{
+        width: 65%;
+    height: 500px;
+    }
     
     .box1{
         width: 40%;
@@ -232,6 +237,11 @@
 
 
 @media screen and (max-width: 767px) {
+
+    .con-img{
+        width: 55%;
+    height: 400px;
+    }
     .box1{
         width: 60%;
     }
@@ -260,6 +270,11 @@
 }
 
 @media screen and (max-width: 575px) {
+    .con-img{
+        width: 45%;
+    height: 350px;
+    }
+
     .box1{
         width: 45%;
     }
